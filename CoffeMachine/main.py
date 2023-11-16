@@ -55,7 +55,7 @@ while response(order):
         change = take_money(order, money)
         if change is not False:
             money += MENU[order]["cost"]
-            print(f"Here is your {order}. Enjoy!")
+            print(f"Here is your {order}. ☕Enjoy!")
             print(f"Here is ${change:.2f} in change.")
         else:
             print("Sorry, we do not have enough resources or insufficient funds.")
